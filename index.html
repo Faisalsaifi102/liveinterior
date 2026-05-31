@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Live Interior — premium interior design & turnkey home interiors in Ghaziabad. Modular kitchens, living rooms, wardrobes & full home makeovers." />
+  <title>Live Interior — Designing Spaces, Crafting Dreams</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-mark">LI</span>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-mark">LI</span>
+      <span class="brand-text">Live<em>Interior</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg" data-parallax></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Interior Studio • Ghaziabad</p>
+      <h1 class="hero-title">
+        <span class="line reveal">Designing Spaces,</span>
+        <span class="line reveal accent">Crafting Dreams.</span>
+      </h1>
+      <p class="hero-sub reveal">We transform ordinary rooms into extraordinary living experiences — bespoke interiors crafted with passion, precision &amp; timeless taste.</p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">Book a Free Consultation</a>
+        <a href="#gallery" class="btn btn-ghost">View Our Work</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="num" data-count="450">0</span><span class="plus">+</span><small>Projects Done</small></div>
+        <div class="stat"><span class="num" data-count="12">0</span><span class="plus">+</span><small>Years Experience</small></div>
+        <div class="stat"><span class="num" data-count="98">0</span><span class="plus">%</span><small>Happy Clients</small></div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <span class="mouse"></span>
+      <em>Scroll</em>
+    </a>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>Modular Kitchens</span><span>•</span><span>Living Rooms</span><span>•</span><span>Wardrobes</span><span>•</span><span>False Ceilings</span><span>•</span><span>Turnkey Interiors</span><span>•</span><span>Lighting Design</span><span>•</span>
+      <span>Modular Kitchens</span><span>•</span><span>Living Rooms</span><span>•</span><span>Wardrobes</span><span>•</span><span>False Ceilings</span><span>•</span><span>Turnkey Interiors</span><span>•</span><span>Lighting Design</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-media reveal">
+        <div class="about-img main"></div>
+        <div class="about-img sub"></div>
+        <div class="about-badge">
+          <span class="big">12+</span>
+          <span class="small">Years of<br />Crafting Homes</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow reveal">Who We Are</p>
+        <h2 class="section-title reveal">Where Imagination Meets Interior Craftsmanship</h2>
+        <p class="reveal">At <strong>Live Interior</strong>, we believe a home is a reflection of who you are. Based in Ghaziabad, our studio blends modern aesthetics with functional design to create interiors that feel personal, warm and effortlessly elegant.</p>
+        <p class="reveal">From a single statement room to a complete turnkey home, our team handles everything — design, material, execution and finishing — so you enjoy a beautiful space without the stress.</p>
+        <ul class="about-list reveal">
+          <li><span>✓</span> End-to-end turnkey interior solutions</li>
+          <li><span>✓</span> Transparent pricing, no hidden costs</li>
+          <li><span>✓</span> Premium materials &amp; skilled craftsmen</li>
+          <li><span>✓</span> On-time delivery, every time</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary reveal">Let's Build Together</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="section-head">
+      <p class="section-eyebrow reveal">What We Do</p>
+      <h2 class="section-title reveal">Interior Services Tailored For You</h2>
+    </div>
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-icon">🍳</div>
+        <h3>Modular Kitchens</h3>
+        <p>Smart, stylish &amp; ergonomic kitchens designed around how you cook and live.</p>
+        <span class="service-line"></span>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon">🛋️</div>
+        <h3>Living &amp; Lounge</h3>
+        <p>Inviting living rooms with curated furniture, textures and statement walls.</p>
+        <span class="service-line"></span>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon">🚪</div>
+        <h3>Wardrobes &amp; Storage</h3>
+        <p>Bespoke wardrobes and clever storage that maximise every inch of space.</p>
+        <span class="service-line"></span>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon">💡</div>
+        <h3>False Ceiling &amp; Lighting</h3>
+        <p>Layered lighting and ceiling designs that set the perfect mood and ambience.</p>
+        <span class="service-line"></span>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon">🛏️</div>
+        <h3>Bedroom Interiors</h3>
+        <p>Restful, luxurious bedrooms tailored to your comfort and personal style.</p>
+        <span class="service-line"></span>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon">🏠</div>
+        <h3>Turnkey Projects</h3>
+        <p>Complete home interiors handled end-to-end — you just move in and relax.</p>
+        <span class="service-line"></span>
+      </article>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <div class="section-head">
+      <p class="section-eyebrow reveal">Our Portfolio</p>
+      <h2 class="section-title reveal">Spaces We're Proud Of</h2>
+    </div>
+    <div class="gallery-filters reveal">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="kitchen">Kitchen</button>
+      <button class="filter" data-filter="living">Living</button>
+      <button class="filter" data-filter="bedroom">Bedroom</button>
+      <button class="filter" data-filter="office">Office</button>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <figure class="gallery-item reveal" data-cat="living" data-img="1"><div class="gi-img g1"></div><figcaption><h4>Marble Feature Wall</h4><span>Living • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="kitchen" data-img="2"><div class="gi-img g2"></div><figcaption><h4>Premium Modular Kitchen</h4><span>Kitchen • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="bedroom" data-img="3"><div class="gi-img g3"></div><figcaption><h4>Master Bedroom Suite</h4><span>Bedroom • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="office" data-img="4"><div class="gi-img g4"></div><figcaption><h4>Modular Storage Unit</h4><span>Storage • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="living" data-img="5"><div class="gi-img g5"></div><figcaption><h4>Designer TV Console</h4><span>Living • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="kitchen" data-img="6"><div class="gi-img g6"></div><figcaption><h4>U-Shaped Modular Kitchen</h4><span>Kitchen • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="bedroom" data-img="7"><div class="gi-img g7"></div><figcaption><h4>Wardrobe Bedroom</h4><span>Bedroom • Ghaziabad</span></figcaption></figure>
+      <figure class="gallery-item reveal" data-cat="office" data-img="8"><div class="gi-img g8"></div><figcaption><h4>Study &amp; Wardrobe Nook</h4><span>Workspace • Ghaziabad</span></figcaption></figure>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+    <div class="lb-stage"><div class="lb-img" id="lbImg"></div></div>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+  </div>
+
+  <!-- Process -->
+  <section class="process" id="process">
+    <div class="section-head">
+      <p class="section-eyebrow reveal">How It Works</p>
+      <h2 class="section-title reveal">Our Simple 4-Step Process</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <span class="step-num">01</span>
+        <h3>Consultation</h3>
+        <p>We listen to your vision, needs and budget to understand your dream space.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="step-num">02</span>
+        <h3>Design &amp; 3D</h3>
+        <p>Detailed layouts and realistic 3D visuals so you see it before we build it.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="step-num">03</span>
+        <h3>Execution</h3>
+        <p>Skilled craftsmen bring the design to life with premium materials.</p>
+      </div>
+      <div class="process-step reveal">
+        <span class="step-num">04</span>
+        <h3>Handover</h3>
+        <p>A flawless, finished space — cleaned, styled and ready for you to enjoy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-head">
+      <p class="section-eyebrow reveal">Client Love</p>
+      <h2 class="section-title reveal">What Our Clients Say</h2>
+    </div>
+    <div class="testi-wrap reveal">
+      <div class="testi-track" id="testiTrack">
+        <blockquote class="testi">
+          <div class="stars">★★★★★</div>
+          <p>"Live Interior turned our empty flat into a dream home. The kitchen is stunning and the team was punctual and professional throughout."</p>
+          <footer><strong>Priya Sharma</strong><span>Indirapuram, Ghaziabad</span></footer>
+        </blockquote>
+        <blockquote class="testi">
+          <div class="stars">★★★★★</div>
+          <p>"Incredible attention to detail. The 3D designs matched the final result perfectly. Highly recommend them for any home interior."</p>
+          <footer><strong>Rahul Verma</strong><span>Vasundhara</span></footer>
+        </blockquote>
+        <blockquote class="testi">
+          <div class="stars">★★★★★</div>
+          <p>"Transparent pricing and zero stress. They handled everything end to end. Our living room is now the favourite spot in the house."</p>
+          <footer><strong>Anjali Gupta</strong><span>Raj Nagar Extension</span></footer>
+        </blockquote>
+      </div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner reveal">
+    <div class="cta-inner">
+      <h2>Ready to transform your space?</h2>
+      <p>Let's create interiors you'll fall in love with. Get a free, no-obligation consultation today.</p>
+      <a href="#contact" class="btn btn-light">Start Your Project</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow reveal">Get In Touch</p>
+        <h2 class="section-title reveal">Let's Talk About Your Dream Home</h2>
+        <p class="reveal">Have a project in mind or just want to explore ideas? Reach out — we'd love to hear from you.</p>
+        <ul class="contact-details">
+          <li class="reveal">
+            <span class="ci-icon">📍</span>
+            <div><strong>Visit Us</strong><a href="https://maps.google.com/?q=Muslim+Fund+Bank+Ghaziabad" target="_blank" rel="noopener">A-40, Lalten Factory, Near Muslim Fund Bank, Ghaziabad</a></div>
+          </li>
+          <li class="reveal">
+            <span class="ci-icon">📞</span>
+            <div><strong>Call / WhatsApp</strong><a href="tel:+919910965110">+91 99109 65110</a></div>
+          </li>
+          <li class="reveal">
+            <span class="ci-icon">✉️</span>
+            <div><strong>Email Us</strong><a href="mailto:live.interior.d@gmail.com">live.interior.d@gmail.com</a></div>
+          </li>
+        </ul>
+        <div class="contact-socials reveal">
+          <a href="https://wa.me/919910965110" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+          <a href="mailto:live.interior.d@gmail.com" aria-label="Email">Email</a>
+          <a href="tel:+919910965110" aria-label="Call">Call</a>
+        </div>
+      </div>
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <input type="text" id="name" name="name" required placeholder=" " />
+          <label for="name">Your Name</label>
+        </div>
+        <div class="field">
+          <input type="tel" id="phone" name="phone" required placeholder=" " />
+          <label for="phone">Phone Number</label>
+        </div>
+        <div class="field">
+          <input type="email" id="email" name="email" placeholder=" " />
+          <label for="email">Email (optional)</label>
+        </div>
+        <div class="field">
+          <select id="service" name="service" required>
+            <option value="" disabled selected hidden></option>
+            <option>Modular Kitchen</option>
+            <option>Living Room</option>
+            <option>Bedroom Interior</option>
+            <option>Wardrobe &amp; Storage</option>
+            <option>False Ceiling &amp; Lighting</option>
+            <option>Full Home / Turnkey</option>
+          </select>
+          <label for="service" class="select-label">Service Interested In</label>
+        </div>
+        <div class="field full">
+          <textarea id="message" name="message" rows="3" placeholder=" "></textarea>
+          <label for="message">Tell us about your project</label>
+        </div>
+        <button type="submit" class="btn btn-primary full" id="submitBtn">Send Enquiry</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark">LI</span>
+          <span class="brand-text">Live<em>Interior</em></span>
+        </a>
+        <p>Designing spaces, crafting dreams — premium interior solutions in Ghaziabad &amp; NCR.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services">Modular Kitchen</a>
+        <a href="#services">Wardrobes</a>
+        <a href="#services">False Ceiling</a>
+        <a href="#services">Turnkey Homes</a>
+      </div>
+      <div class="footer-col">
+        <h4>Reach Us</h4>
+        <a href="tel:+919910965110">+91 99109 65110</a>
+        <a href="mailto:live.interior.d@gmail.com">live.interior.d@gmail.com</a>
+        <a href="https://maps.google.com/?q=Muslim+Fund+Bank+Ghaziabad" target="_blank" rel="noopener">A-40, Lalten Factory, Ghaziabad</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Live Interior. All rights reserved.</p>
+      <p>Crafted with ❤️ in Ghaziabad</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/919910965110?text=Hi%20Live%20Interior,%20I'm%20interested%20in%20your%20interior%20services." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor"><path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.7 5.4 2 7.7L.5 31.5l8-2.1c2.2 1.2 4.8 1.9 7.5 1.9 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5zm0 28.2c-2.4 0-4.7-.7-6.7-1.8l-.5-.3-4.7 1.2 1.3-4.6-.3-.5A12.7 12.7 0 0 1 3.3 16C3.3 9 9 3.3 16 3.3S28.7 9 28.7 16 23 28.7 16 28.7zm7-9.5c-.4-.2-2.3-1.1-2.6-1.3-.3-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.2.2-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.2-1.3-3-.3-.7-.6-.6-.9-.6h-.7c-.2 0-.6.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.9c.2.2 2.6 4 6.4 5.6.9.4 1.6.6 2.1.8.9.3 1.7.2 2.3.1.7-.1 2.3-.9 2.6-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
